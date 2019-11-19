@@ -1,6 +1,6 @@
 # kivyVelha
 
-*Jogo da velha com Python 3.6.0 e Kivy 1.11.1
+* Jogo da velha com Python 3.6.0 e Kivy 1.11.1
 
 # Mais
 
@@ -13,7 +13,7 @@
 
 # Telas
 
-![img](file:///C:/Users/marba/Desktop/jogokivy/tela1.PNG)
+![img]()
 
 
 
