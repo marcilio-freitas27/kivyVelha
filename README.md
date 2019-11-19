@@ -1,8 +1,8 @@
 # kivyVelha
 
-* Jogo da velha com Python 3.6.0 e Kivy 1.11.1
+* Jogo da velha com Python e Kivy
 
-# Mais
+# Sobre
 
 * Um simples jogo da velha com interface gráfica. 
 * Baseado nos conhecimentos que adquire com o repositório JogodavelhaCLI, o pouco de conheço de kivy e unindo partes de outros códigos foi possível desenvolver esse jogo.
@@ -13,7 +13,14 @@
 
 # Telas
 
-![img]()
+![Tabuleiro](https://github.com/marcilio-freitas27/kivyVelha/blob/master/tela1.PNG)
+![Símbolos]https://github.com/marcilio-freitas27/kivyVelha/blob/master/tela2.PNG
+![Vitória]https://github.com/marcilio-freitas27/kivyVelha/blob/master/tela3.PNG
+![Velha]https://github.com/marcilio-freitas27/kivyVelha/blob/master/tela4.PNG
+
+# Requerimentos
+
+
 
 
 
