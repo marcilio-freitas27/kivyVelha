@@ -7,9 +7,9 @@
 * Um simples jogo da velha com interface gráfica. 
 * Baseado nos conhecimentos que adquire com o repositório JogodavelhaCLI, o pouco que conheço de Kivy e pequenas adições de outras linhas código que fiz e encontrei sobre o Kivy.
 
-# Porque com kivy e não com PyGame?
+# Porque com Kivy e não com PyGame?
 
-* Primeiro, não tenho prática com pygame e sim com Kivy. Segundo, com Kivy posso usa-lo em desktop e mobile. Ultimamente as coisas que aprendo com Python costumo passar para Tkinter, Kivy e web.
+* Primeiro, não tenho prática com PyGame e sim com Kivy. Segundo, com Kivy posso usa-lo em desktop e mobile. Ultimamente as coisas que aprendo com Python costumo passar para Tkinter, Kivy e web.
 
 # Telas
 
