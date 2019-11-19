@@ -14,15 +14,19 @@
 # Telas
 
 * Tabuleiro
+
 ![Tabuleiro](https://github.com/marcilio-freitas27/kivyVelha/blob/master/tela1.PNG)
 
 * Símbolos
+
 ![Símbolos](https://github.com/marcilio-freitas27/kivyVelha/blob/master/tela2.PNG)
 
 * Vitória
+
 ![Vitória](https://github.com/marcilio-freitas27/kivyVelha/blob/master/tela3.PNG)
 
 * Velha
+
 ![Velha](https://github.com/marcilio-freitas27/kivyVelha/blob/master/tela4.PNG)
 
 # Requerimentos
