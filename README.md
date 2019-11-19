@@ -5,7 +5,7 @@
 # Sobre
 
 * Um simples jogo da velha com interface gráfica. 
-* Baseado nos conhecimentos que adquire com o repositório JogodavelhaCLI, o pouco de conheço de kivy e unindo partes de outros códigos foi possível desenvolver esse jogo.
+* Baseado nos conhecimentos que adquire com o repositório JogodavelhaCLI, o pouco que conheço de Kivy e pequenas adições de outras linhas código que fiz e encontrei sobre o Kivy.
 
 # Porque com kivy e não com PyGame?
 
