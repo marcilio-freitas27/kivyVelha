@@ -14,9 +14,9 @@
 # Telas
 
 ![Tabuleiro](https://github.com/marcilio-freitas27/kivyVelha/blob/master/tela1.PNG)
-![Símbolos]https://github.com/marcilio-freitas27/kivyVelha/blob/master/tela2.PNG
-![Vitória]https://github.com/marcilio-freitas27/kivyVelha/blob/master/tela3.PNG
-![Velha]https://github.com/marcilio-freitas27/kivyVelha/blob/master/tela4.PNG
+![Símbolos](https://github.com/marcilio-freitas27/kivyVelha/blob/master/tela2.PNG)
+![Vitória](https://github.com/marcilio-freitas27/kivyVelha/blob/master/tela3.PNG)
+![Velha](https://github.com/marcilio-freitas27/kivyVelha/blob/master/tela4.PNG)
 
 # Requerimentos
 
