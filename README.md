@@ -13,6 +13,10 @@
 
 # Telas
 
+## versão 1.0
+
+## OBS: Na pasta velha contem a versão final
+
 * Tabuleiro
 
 ![Tabuleiro](https://github.com/marcilio-freitas27/kivyVelha/blob/master/tela1.PNG)
