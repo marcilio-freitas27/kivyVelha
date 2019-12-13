@@ -5,7 +5,7 @@
 # Sobre
 
 * Um simples jogo da velha com interface gráfica. 
-* Baseado nos conhecimentos que adquire com o repositório JogodavelhaCLI, o pouco que conheço de Kivy e pequenas adições de outras linhas código que fiz e encontrei sobre o Kivy.
+* Baseado nos conhecimentos que adquire com o repositório JogodavelhaCLI, o pouco que conheço de Kivy e pequenas adições de outras linhas de código que fiz e encontrei sobre o Kivy.
 
 # Porque com Kivy e não com PyGame?
 
@@ -13,9 +13,8 @@
 
 # Telas
 
-## versão 1.0
-
-## OBS: Na pasta velha contem a versão final
+* versão 1.0
+* OBS: Na pasta *velha/* contem a versão final
 
 * Tabuleiro
 
