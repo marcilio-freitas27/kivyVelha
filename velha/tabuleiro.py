@@ -79,33 +79,22 @@ Builder.load_string('''
             rgb: 1, 1, 0
         Rectangle:
             pos: self.center_x+140, 0
-            size: 10, self.height
-            Rectangle:
-                pos: self.pos
-                size: self.size
+            size: 10, self.height    
 
         Rectangle:
             pos: self.center_x-140, 0
             size: 10, self.height
-            Rectangle:
-                pos: self.pos
-                size: self.size
+            
         Color:
             #verde
             rgb: 0, 1, 0
         Rectangle:
             pos: 0 , self.center_y+110
             size: self.width, 10
-            Rectangle:
-                pos: self.pos
-                size: self.size
 
         Rectangle:
             pos: 0 , self.center_y-110
             size: self.width, 10
-            Rectangle:
-                pos: self.pos
-                size: self.size
 
     #score j1
     AnchorLayout:
@@ -145,58 +134,40 @@ Builder.load_string('''
         Label:
             id: zero
             font_size: 70  
-            center_x: root.width / 4
-            top: root.top - 50
             text: ''
         Label:
             id: one
             font_size: 70  
-            center_x: root.width * 3 / 4
-            top: root.top - 50
             text: ''
         Label:
             id: two
             font_size: 70  
-            center_x: root.width / 4
-            top: root.top - 50
             text: ''
 
         Label:
             id: three
             font_size: 70  
-            center_x: root.width * 3 / 4
-            top: root.top - 50
             text: ''
         Label:
             id: four
             font_size: 70  
-            center_x: root.width / 4
-            top: root.top - 50
             text: ''
         Label:
             id: five
             font_size: 70  
-            center_x: root.width * 3 / 4
-            top: root.top - 50
             text: ''
         
         Label:
             id: six
             font_size: 70  
-            center_x: root.width / 4
-            top: root.top - 50
             text: ''
         Label:
             id: seven
             font_size: 70  
-            center_x: root.width * 3 / 4
-            top: root.top - 50
             text: ''
         Label:
             id: eight
             font_size: 70  
-            center_x: root.width * 3 / 4
-            top: root.top - 50
             text: ''
 <Tabuleiro2>:
     # desenho do tabuleiro para melhor de 3
@@ -207,32 +178,23 @@ Builder.load_string('''
         Rectangle:
             pos: self.center_x+140, 0
             size: 10, self.height
-            Rectangle:
-                pos: self.pos
-                size: self.size
-
+            
         Rectangle:
             pos: self.center_x-140, 0
             size: 10, self.height
-            Rectangle:
-                pos: self.pos
-                size: self.size
+            
         Color:
             #verde
             rgb: 0, 1, 0
         Rectangle:
             pos: 0 , self.center_y+110
             size: self.width, 10
-            Rectangle:
-                pos: self.pos
-                size: self.size
+            
 
         Rectangle:
             pos: 0 , self.center_y-110
             size: self.width, 10
-            Rectangle:
-                pos: self.pos
-                size: self.size
+            
 
     #score j1
     AnchorLayout:
@@ -263,58 +225,40 @@ Builder.load_string('''
         Label:
             id: zero
             font_size: 70  
-            center_x: root.width / 4
-            top: root.top - 50
             text: ''
         Label:
             id: one
             font_size: 70  
-            center_x: root.width * 3 / 4
-            top: root.top - 50
             text: ''
         Label:
             id: two
             font_size: 70  
-            center_x: root.width / 4
-            top: root.top - 50
             text: ''
 
         Label:
             id: three
-            font_size: 70  
-            center_x: root.width * 3 / 4
-            top: root.top - 50
+            font_size: 70 
             text: ''
         Label:
             id: four
-            font_size: 70  
-            center_x: root.width / 4
-            top: root.top - 50
+            font_size: 70 
             text: ''
         Label:
             id: five
             font_size: 70  
-            center_x: root.width * 3 / 4
-            top: root.top - 50
             text: ''
         
         Label:
             id: six
             font_size: 70  
-            center_x: root.width / 4
-            top: root.top - 50
             text: ''
         Label:
             id: seven
             font_size: 70  
-            center_x: root.width * 3 / 4
-            top: root.top - 50
             text: ''
         Label:
             id: eight
             font_size: 70  
-            center_x: root.width * 3 / 4
-            top: root.top - 50
             text: ''
 ''')
 
