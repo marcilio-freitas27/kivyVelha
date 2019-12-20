@@ -11,39 +11,19 @@ Builder.load_string('''
         Rectangle:
             pos: self.center_x+140, 0
             size: 10, self.height
-            Rectangle:
-                pos: self.pos
-                size: self.size
-            Color:
-                rgb:(0,1,0)
 
         Rectangle:
             pos: self.center_x-140, 0
             size: 10, self.height
-            Rectangle:
-                pos: self.pos
-                size: self.size
-            Color:
-                rgb:(0,1,0)
         
         Rectangle:
             pos: 0 , self.center_y+110
             size: self.width, 10
-            Rectangle:
-                pos: self.pos
-                size: self.size
-            Color:
-                rgb:(0,1,0)
-
+            
         Rectangle:
             pos: 0 , self.center_y-110
             size: self.width, 10
-            Rectangle:
-                pos: self.pos
-                size: self.size
-            Color:
-                rgb:(0,1,0)
-
+            
     GridLayout:
         rows: 3
         cols: 3
