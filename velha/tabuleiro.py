@@ -1293,74 +1293,6 @@ class Tabuleiro2(Screen):
     count = 59+1
     def __init__(self,**kwargs):
         super(Tabuleiro2, self).__init__(**kwargs)
-    
-    # obs:  por algum motivo as defs só funcionaram com o clock apesar de n ter a necessidade de usa-lo
-    # então resolvi adaptar de forma q ele conte, n pare de contar, n seja condição para o melhor de 3
-    # e nem exiba nada na tela do tabuleiro
-    # quando muda da tela jogadores para tabuleiro o timer inicia 
-    def on_pre_enter(self):
-        self.clock_start()
-        
-    # chamar o metodo para iniciar o timer
-    def clock_start(self):
-        Clock.schedule_interval(self.callback_clock,0.5)
-
-    
-    # parar o contador nas seguintes condições, voltar para a tela de jogadores e indicar os ganhadores
-    def callback_clock(self, dt):
-        jogadores = Jogadores()
-        self.count = self.count-1
-        if self.count == 0:
-            Clock.unschedule(self.callback_clock)
-            count = 59+1
-            Clock.schedule_interval(self.callback_clock,0.5)
-
-        elif self.ids.score10.text == "3":
-            content = Button(text='j1 ganhou!')
-            popup = Popup(size = (250, 250),title='Resultado',content=content,size_hint=(None,None), title_color=(0,1,1,1))
-            content.bind(on_release=popup.dismiss)
-            popup.open()
-
-            jogadores.para_som()
-            self.manager.current = "jogadores"    
-            self.ids.score10.text = "0"
-            self.ids.score20.text = "0"
-            self.ids.zero.text = ""
-            self.ids.one.text = ""
-            self.ids.two.text = ""
-            self.ids.three.text = ""
-            self.ids.four.text = ""
-            self.ids.five.text = ""
-            self.ids.six.text = ""
-            self.ids.seven.text = ""
-            self.ids.eight.text = ""
-            j11.clear()
-            j22.clear()
-            c=0
-            
-
-        elif self.ids.score20.text == "3":
-            content = Button(text='j2 ganhou!')
-            popup = Popup(size = (250, 250),title='Resultado',content=content,size_hint=(None,None), title_color=(0,1,1,1))
-            content.bind(on_release=popup.dismiss)
-            popup.open()
-        
-            jogadores.para_som()
-            self.manager.current = "jogadores"    
-            self.ids.score10.text = "0"
-            self.ids.score20.text = "0"
-            self.ids.zero.text = ""
-            self.ids.one.text = ""
-            self.ids.two.text = ""
-            self.ids.three.text = ""
-            self.ids.four.text = ""
-            self.ids.five.text = ""
-            self.ids.six.text = ""
-            self.ids.seven.text = ""
-            self.ids.eight.text = ""
-            j11.clear()
-            j22.clear()
-            c=0
 
     # if a label is touched/collide insert a simbol of tic-tac-toy
     # condições de toque nas telas para inserir os simbolos e determinar quais as jogadas(c)
@@ -2127,6 +2059,54 @@ class Tabuleiro2(Screen):
             self.ids.six.text = ""
             self.ids.seven.text = ""
             self.ids.eight.text = ""
+            c=0
+        
+        jogadores = Jogadores(
+        if self.ids.score10.text == "3":
+            content = Button(text='j1 ganhou!')
+            popup = Popup(size = (250, 250),title='Resultado',content=content,size_hint=(None,None), title_color=(0,1,1,1))
+            content.bind(on_release=popup.dismiss)
+            popup.open()
+
+            jogadores.para_som()
+            self.manager.current = "jogadores"    
+            self.ids.score10.text = "0"
+            self.ids.score20.text = "0"
+            self.ids.zero.text = ""
+            self.ids.one.text = ""
+            self.ids.two.text = ""
+            self.ids.three.text = ""
+            self.ids.four.text = ""
+            self.ids.five.text = ""
+            self.ids.six.text = ""
+            self.ids.seven.text = ""
+            self.ids.eight.text = ""
+            j11.clear()
+            j22.clear()
+            c=0
+            
+
+        elif self.ids.score20.text == "3":
+            content = Button(text='j2 ganhou!')
+            popup = Popup(size = (250, 250),title='Resultado',content=content,size_hint=(None,None), title_color=(0,1,1,1))
+            content.bind(on_release=popup.dismiss)
+            popup.open()
+        
+            jogadores.para_som()
+            self.manager.current = "jogadores"    
+            self.ids.score10.text = "0"
+            self.ids.score20.text = "0"
+            self.ids.zero.text = ""
+            self.ids.one.text = ""
+            self.ids.two.text = ""
+            self.ids.three.text = ""
+            self.ids.four.text = ""
+            self.ids.five.text = ""
+            self.ids.six.text = ""
+            self.ids.seven.text = ""
+            self.ids.eight.text = ""
+            j11.clear()
+            j22.clear()
             c=0
             
 
